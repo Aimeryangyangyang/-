@@ -1,0 +1,14 @@
+{
+    "pages": [
+        "pages/catalog/catalog",
+        "pages/detail/detail"
+    ],
+    "window": {
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#AFEEEE",
+        "navigationBarTitleText": "科导期末展示",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}

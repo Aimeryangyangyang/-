@@ -1,0 +1,7 @@
+<view class = goods>
+<view class = 'title'><image src = "{{data.image}}"></image></view>
+<view class = 'title'>{{data.title}}</view>
+<view class = 'title'>{{data.titleTwo}}</view>
+  <view class = 'tip'>@{{data.tipTwo}}
+</view>
+</view>

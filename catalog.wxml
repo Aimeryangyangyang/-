@@ -1,0 +1,13 @@
+<view class = "demo-box">
+  <block wx:for = "{{contentdata}}" wx:for-item = "item">
+    <view class = "content-box"bindtap = "todetail"data-id = "{{item.id}}">
+      <image class = "content-pic"src = "{{item.image}}"></image>
+      <view class = "content-title">{{item.title}}</view>
+      <view class = "content-titleTwo">{{item.titleTwo}}</view>
+      <view class = "row">
+        <view class = "contnet-tip">*{{item.tip}}</view>
+        <text class = "content-btn">查看详情</text>
+      </view>
+    </view>>
+  </block>>
+</view>> 
